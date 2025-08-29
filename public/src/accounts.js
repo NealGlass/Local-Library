@@ -2,8 +2,7 @@
 // Hint: You can use the [`filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) method here. 
 
 function findAccountById(accounts, id) {
-let account = accounts.filter(account => account.id === id); //within accounts, find the account with the matching id
-return account;
+return accounts.find(account => account.id === id); //within accounts, find the account with the matching id
 }
   
 
